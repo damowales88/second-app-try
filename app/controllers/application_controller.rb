@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 def hello
-     render text: "<h1>HEY MARIO</h1><p>look what i made</p>"
+     render text: "<h1>Arun, I need help</h1><p>I have a rails app, but i don't get it at all</p>"
    end
   
 end
